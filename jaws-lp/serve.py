@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os, sys
-os.chdir("/Users/matsumaepc/Desktop/Claude code/上手フラッグLP")
+os.chdir("/Users/matsumaepc/Desktop/Claude code/jaws-lp")
 port = int(os.environ.get("PORT", 8080))
 import http.server
 handler = http.server.SimpleHTTPRequestHandler
